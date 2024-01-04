@@ -43,22 +43,27 @@
   color: black;
   border-radius: 5px;
 }
-h1{
+h4{
   font-weight: bolder;
 }
-.btn1{
-display: flex;
-justify-content: space-evenly;
+h5{
+  font-size: large;
 }
 .btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn1{
+  border: none;
+  color: rgb(0, 0, 0);
+  width: 18rem;
   background-color: white;
-  width: 19rem;
+  height: 3rem;
   font-weight: bolder;
-  margin-bottom: 5px;
-  
+  font-size: medium;
+  padding-bottom: 2rem;
   
 }
-.btn:hover{
-
-  background-color: #f1f2f7;
+.btn1:hover{
+  background-color:#f1f2f7;
 }
